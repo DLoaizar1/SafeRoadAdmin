@@ -1,0 +1,27 @@
+<h2 style="font-weight: 700;" class="m-3" color="primary">Información Mecanico</h2>
+<mat-card class="m-3">
+  <mat-card-title>
+    {{mecanicoObj?.name}}
+  </mat-card-title>
+  <mat-card-subtitle>
+    {{mecanicoObj?.qualification}}
+  </mat-card-subtitle>
+  <mat-divider></mat-divider>
+
+    <div class="row pt-3">
+      <div class="col-md-6">
+        <mat-card-content>
+          <span> Email : </span> {{mecanicoObj.email}} <br>
+        <span> Celular : </span> {{mecanicoObj.phoneNumber}} <br>
+
+        </mat-card-content>
+      </div>
+      <div class="col-md-6">
+       <mat-card-content>
+        <span> Local : </span> {{mecanicoObj.local}} <br>
+        <span> Cedula : </span> {{mecanicoObj.cedula}}
+       </mat-card-content>
+      </div>
+    </div>
+</mat-card>
+

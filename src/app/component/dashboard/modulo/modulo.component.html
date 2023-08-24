@@ -1,0 +1,34 @@
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+<div class="dashboard-container">
+  <div class="card">
+    <div class="card-title">Total Usuarios</div>
+    <div class="card-number"><a style="color: #007bff; text-decoration: none;" href="dashboard/usuarios">{{ totalUsers }}</a></div>
+  </div>
+  <div class="card">
+    <div class="card-title">Total Usuarios Activos</div>
+    <div class="card-number"><a style="color: #800080; text-decoration: none;" href="dashboard/usuarios">0</a></div>
+  </div>
+  <div class="card">
+    <div class="card-title">Total Mecanicos</div>
+    <div class="card-number"><a style="color: #007bff; text-decoration: none;" href="dashboard/mecanico">{{ totalMecanicos }}</a></div>
+  </div>
+  <div class="card">
+    <div class="card-title">Total Mecanicos Activos</div>
+    <div class="card-number"><a style="color: #800080; text-decoration: none;" href="dashboard/mecanico">{{ totalMecanicosActivos }}</a></div>
+  </div>
+</div>
+<br>
+<div class="dashboard-header">
+  <div class="dashboard-title">Safe Road Dashboard</div>
+</div>
+
+<div class="dashboard-container">
+  <div class="chart" id="container"></div>
+  <div class="chart" id="profits-container"></div>
+</div>
+
+<div class="dashboard-container">
+  <div class="chart" id="fechaUsuarios"></div>
+  <div class="chart" id="fechaMecanicos"></div>
+</div>
